@@ -26,6 +26,7 @@ variable "admin_password" {
   description = "Password for the VM"
   type        = string
   sensitive   = true
+  default     = "Training@123"
 }
 
 variable "custom_data_script" {
